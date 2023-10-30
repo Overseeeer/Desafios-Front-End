@@ -1,0 +1,46 @@
+**Desafio de CSS para Iniciantes: Barra Lateral de Navegação (Sidebar)**
+
+**Objetivo:**  
+Crie uma barra lateral de navegação vertical que possa ser usada em um site ou aplicativo. Ela deve conter ícones e textos representando diferentes seções ou páginas.
+
+**Instruções:**
+
+1. **Estrutura HTML:**
+   Crie uma estrutura básica em HTML com os seguintes elementos:
+   - Um `div` para a barra lateral (`sidebar`).
+   - Dentro da `sidebar`, várias `div` ou `a` representando cada item de navegação.
+   - Dentro de cada item de navegação, um `i` ou `img` para o ícone e um `span` para o texto.
+
+   Exemplo:
+   ```html
+   <div class="sidebar">
+       <a href="#" class="nav-item">
+           <i class="icon-home"></i>
+           <span>Início</span>
+       </a>
+       <a href="#" class="nav-item">
+           <i class="icon-about"></i>
+           <span>Sobre</span>
+       </a>
+       <a href="#" class="nav-item">
+           <i class="icon-contact"></i>
+           <span>Contato</span>
+       </a>
+   </div>
+   ```
+
+   *Nota:* Você pode usar uma biblioteca de ícones como o FontAwesome ou ícones em SVG para representar os ícones.
+
+2. **Estilização CSS:**
+   - A `sidebar` deve ter uma largura fixa (por exemplo, `80px`) e altura total (`100vh`).
+   - Dê um fundo sólido para a `sidebar`, por exemplo, um cinza escuro (`#2c3e50`).
+   - Cada `nav-item` deve ter um espaçamento vertical, uma cor de texto clara e um `hover effect` que mude a cor de fundo ou a cor do texto.
+   - Os ícones e o texto dentro de `nav-item` devem estar centralizados e alinhados horizontalmente.
+   - Aplique uma transição suave para o efeito de hover.
+
+3. **Desafio Extra:**
+   - Adicione um efeito de "ativo" para mostrar em qual página ou seção o usuário está atualmente.
+   - Crie uma animação onde os ícones ou textos se movem ou mudam de cor quando o mouse passa sobre eles.
+   - Implemente um botão que colapse ou expanda a `sidebar`, mostrando apenas os ícones quando colapsado.
+
+Quando você concluir este desafio, terá criado uma barra lateral de navegação interativa que pode ser integrada em projetos futuros. Além disso, terá praticado a manipulação de layouts, ícones, hover effects e transições em CSS. Boa sorte!

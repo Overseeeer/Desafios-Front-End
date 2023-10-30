@@ -1,0 +1,43 @@
+**Desafio de CSS para Iniciantes: Card de Perfil**
+
+**Objetivo:**  
+Crie um card de perfil simples que mostre uma imagem de perfil, um nome, uma breve descrição e links para redes sociais.
+
+**Instruções:**
+
+1. **Estrutura HTML:**
+   Crie uma estrutura básica em HTML com os seguintes elementos:
+   - Um `div` para o card de perfil.
+   - Dentro do card, inclua uma `img` para a imagem de perfil.
+   - Um `h2` para o nome.
+   - Um `p` para a descrição.
+   - Uma lista `ul` contendo `li` para cada rede social com links (`a`).
+
+   Exemplo:
+   ```html
+   <div class="profile-card">
+       <img src="link-para-imagem" alt="Nome da Pessoa">
+       <h2>Nome da Pessoa</h2>
+       <p>Uma breve descrição sobre a pessoa.</p>
+       <ul>
+           <li><a href="#">Facebook</a></li>
+           <li><a href="#">Twitter</a></li>
+           <li><a href="#">LinkedIn</a></li>
+       </ul>
+   </div>
+   ```
+
+2. **Estilização CSS:**
+   - Dê ao card uma largura fixa (por exemplo, `300px`) e centrifique-o na página.
+   - Adicione uma borda suave e talvez um leve `box-shadow` para dar profundidade.
+   - A imagem de perfil deve ser um círculo e centralizada no topo do card.
+   - O nome deve estar centralizado abaixo da imagem de perfil.
+   - A descrição deve ter uma fonte menor e talvez uma cor mais suave.
+   - Os links das redes sociais devem ser exibidos horizontalmente e ter algum espaço entre eles. Quando você passar o mouse sobre eles, altere a cor ou aplique alguma outra propriedade de hover.
+
+3. **Desafio Extra:**
+   - Adicione uma transição suave ao hover dos links das redes sociais.
+   - Faça com que o card mude de cor de fundo suavemente quando o mouse estiver sobre ele.
+   - Use `@media queries` para tornar o card responsivo para dispositivos móveis.
+
+Ao finalizar, você terá praticado várias propriedades CSS essenciais, incluindo posicionamento, estilização de texto, listas, hover effects e responsividade. Boa sorte e divirta-se estilizando!
